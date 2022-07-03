@@ -1,0 +1,11 @@
+header li {
+list-style: none;
+display: inline-block;
+padding: 0 20px;
+justify-content: flex-end;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
