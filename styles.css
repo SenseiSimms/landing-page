@@ -1,31 +1,104 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 
 div {
     border: solid 2px red;
 }
 
-.hero {
-    display: flex;
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
-.hero img {
+.navbar-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    padding: 40px 30px 30px 30px;
+}
+
+.logo {
+    margin-top: 5px;
+margin-left: 140px;
+margin-bottom: 50px;
+font-size: 24px;
+}
+
+a {
+margin: auto;
+padding: 40px;
+}
+
+a, li {
+    display: inline;
+    list-style: none;
+text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+    padding-bottom: 130px;
+}
+
+
+
+.left{
+    margin-left: 100px;
+    width: 450px;
+}
+
+.left h2, p, button {
+    flex: 1;
+    
+
+}
+.left h2{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.right img {
+    flex: 1;
+    margin-right: 100px;
+    width: 520px;
     height: 280px;
-    width: 350px;
 }
 
 .item-container {
     display: flex;
     margin: auto;
-    justify-content: space-around;
-    flex-basis: 20%;
+    justify-content: space-between;
+    width: 820px;
     align-items: center;
+    padding: 0px;
+}
+
+.item-header {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-header p {
+    padding-top: 30px;
 }
 
 .item-card {
-    height: 150px;
-    flex-basis: 150px;
+    height: 130px;
+    flex-basis: 130px;
     border: solid 2px black;
+    border-radius: 10px;
+    margin: 30px auto 70px auto;
 }
