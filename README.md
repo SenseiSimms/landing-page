@@ -1,1 +1,3 @@
 # landing-page
+
+8/13/2022 So I can honestly say this landing page took me longer than I thought it would,but I've learned a lot along the way.The part that really slowed me to a crawl was not truly grasping Flexbox and how their containers are used properly. It did start to make more sense as I searched the web and asked questions on coding communities.I'm still learning more about CSS and how powerful this tool is so I'm excited to see what else I can create with it.
